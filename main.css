@@ -1,0 +1,285 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Chilanka', cursive;
+	font-weight: bolder;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.home{
+	background-image: url("Gambar/BG_home.jpg");
+}
+
+.background{
+	background-image: url("Gambar/BG_form.jpg");
+}
+
+#home{
+	background-color: white;
+	width: 100%;
+}
+
+#aboutme{
+	float: left;
+}
+
+#portfolio{
+	float: left; 
+	background-color: white;
+}
+
+#skills{
+	background-color: black; 
+	color: white;
+}
+
+.row:after {
+	content: '';
+	clear: both;
+	display: block;
+	margin: 0px;
+}
+
+.row div{
+	float: left;
+}
+ 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.padding-8{
+	padding: 8px;
+}
+
+.padding-16{
+	padding: 16px;
+}
+
+.padding-32{
+	padding: 32px;
+}
+
+.padding-64{
+	padding: 64px;
+}
+
+.padding-128{
+	padding: 128px;
+}
+
+h1{
+	font-size: 64px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+.center{
+	text-align: center;
+}
+
+.font-white{
+	color: white;
+}
+
+.footer{
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+.square{
+	width: 256px;
+	height: 256px;
+	padding: 8px;
+	margin-left: 50px;
+}
+
+.square:hover{
+	transform: scale(1.5);
+	transition: all 0.3s;
+}
+
+.circle{
+	width: 256px;
+	height: 256px;
+}
+
+.tri{
+	width: 300px;
+}
+
+.square2{
+	width: 256px;
+	height: 400px;
+	padding: 8px;
+	margin-left: 50px;
+}
+
+.square2:hover{
+	transform: scale(1.5);
+	transition: all 0.3s;
+}
+
+.topnav {
+  	width: 100%;
+	padding: 16px;
+	text-align: center;
+	position: fixed;
+}
+
+.topnav li{
+  	width: 16.66%;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.topnav li a{
+	text-decoration: none;
+	color: white;
+}
+
+.sidenav {
+  	width: 100%;
+	padding: 16px;
+	text-align: right;
+}
+
+.sidenav li{
+  	width: 10%;
+	display: inline-block;
+}
+
+.sidenav li a{ 
+	text-decoration: none;
+	color: #666666;
+}
+
+.sidenav2 {
+  	width: 100%;
+	padding: 16px;
+	text-align: left;
+	position: fixed;
+}
+
+.sidenav2 li{
+  	width: 10%;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.sidenav2 li a{
+	color: lightgray; 
+	text-decoration: none;
+	color: white;
+}
+
+.button{
+  background-color: #5c5cd6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all ease 0.5s;
+}
+.button:hover{
+	background-color: #cce0ff;
+	color: black;
+}
+.p{
+	font-weight: bold; 
+	text-align: center; 
+	font-size: 30px;
+	background-image: url("Gambar/BG_blog.jpg");
+	margin: 10px;
+}
+
+.white{
+	color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+table{
+	border: 1px solid #ccc;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table tr{
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+table th, table td{
+	padding: 10px;
+	text-align: center;
+}
+
+table th{
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
